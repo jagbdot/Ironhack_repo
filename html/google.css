@@ -1,0 +1,200 @@
+body{
+	font-family: arial, sans-serif;
+}
+
+header{
+	height: 30px;
+	width: 100%;
+	margin-top: 15px;
+	display: table;
+}
+
+footer{
+	height: 40px;
+	background-color: #f2f2f2;
+	width: 100%;
+	border-top: 1px solid #e4e4e4;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+a.foot{
+	color: #666;
+	font-size: 13px;
+	padding: 10px 13px;
+	opacity: 1;
+}
+
+.first{
+	padding: 10px 17px;
+	text-align: left;
+	display: inline-block;
+}
+
+.second{
+	padding: 10px 17px;
+	text-align: left;
+	float: right;
+	display: inline-block;
+}
+
+ul{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: right;
+	padding: 0;
+	margin: 0;
+	padding-right: 55px;
+	min-width: 600px;
+	position: relative;
+}
+
+li{
+	display: inline-block;
+	padding: 0 5px;
+	font-size: 13px;
+	line-height: 24px;
+}
+
+span{
+	opacity: .55;
+}
+
+div.logo{
+	margin: 0 auto;
+	width: 272px;
+	height: 92px;
+	padding: 153px 0px 30px 0;
+}
+
+div.icono{
+	border-radius: 100%;
+	background-color: rgba(0,0,0,.55);
+	width: 20px;
+	height: 20px;
+}
+
+div.buscador{
+	border: 1px solid rgba(0, 0, 0, .15);
+	width: 568px;
+	height: 38px;
+	margin: 0 auto;
+}
+
+.buscador:hover{
+	border: 1px solid rgba(0, 0, 0, .35);
+}
+
+.botones{
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 30px;
+}
+
+img{
+	width: 100%;
+}
+
+.contenedor-micro{
+	position: relative;
+	float: right;
+	height: 100%;
+	width: 24px;
+	vertical-align: middle;
+	padding-right: 10px; 
+}
+
+.contenedor-foto{
+	border-radius: 100%;
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	right: 16px;
+	margin: 0 5px;
+	position: absolute;
+	top: 0;
+}
+
+img.foto{
+	width: 200%;
+	overflow: hidden;
+	left: -16px;
+	position: relative;
+}
+
+img.micro{
+	position: absolute;
+	width: 70%;
+	min-height: 20px;
+	top: 15%;
+	bottom: 0;
+}
+
+img.cuadros{
+	width: 22px;
+	position: relative;
+	top: 7px;
+	padding: 0 7px;
+	opacity: .85;
+}
+
+img.cuadros:hover{
+	opacity: 1;
+}
+
+img.campana{
+	width: 12px;
+	position: relative;
+	top: 1px;
+	left: -4px;
+}
+
+input{
+	height: 36px;
+	line-height: 27px;
+	font-size: 13px;
+	text-align: center;
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	color: rgba(0, 0, 0, .55);
+	padding: 0px 8px;
+	margin: 0 2.5px;
+	font-weight: bold;
+}
+
+input:hover{
+	border: 1px solid #757575;
+	color: rgba(0, 0, 0, 1);
+}
+
+section.lenguaje{
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 20px;
+	font-size: 13px;
+	line-height: 28px;
+}
+
+a.lenguaje{
+	color: #1a0dab;
+	opacity: 1;
+}
+
+a.foto{
+	opacity: 1;
+}
+
+span.lenguaje{
+	opacity: 1;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+	opacity: .75;
+}
+
+a:hover{
+	text-decoration: underline;
+}
