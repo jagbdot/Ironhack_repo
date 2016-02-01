@@ -1,4 +1,3 @@
-
 class MilkShake
 	def initialize
 		@base_price = 3
