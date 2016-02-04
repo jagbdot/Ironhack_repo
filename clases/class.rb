@@ -1,30 +1,38 @@
 class Dog
-	def initialize (name, breed, bark)
+	def initialize (name, breed)
 		@name = name
 		@breed = breed
-		@bark = bark
-		@list = []
+		file = File.open("lista.txt", "w")
 	end
-	def bark
-		puts @bark
-	end
-
 	def smell=(str)
 		@name = str
 	end
+
 	def smell (person)
-		@list.push(person)
+		file = File.open("lista.txt", "a")
+		file.puts(person)
+		file.close
 	end
+
 	def people_smelled
-		@list
+		file = File.open("lista.txt", "r")
+		people = file.readlines
+		file.close
+		people
 	end
 end
 
-perro1 = Dog.new("toby", "pitbull", "grrr")
+perro1 = Dog.new("toby", "pitbull")
 perro1.smell("paco")
 perro1.smell("luis")
 perro1.smell("Pepe")
 puts perro1.people_smelled.inspect
+
+
+
+
+
+
 
 class Hound < Dog
 	def bark
@@ -36,7 +44,7 @@ class Hound < Dog
 end
 
 class PetDog < Dog
-	def initialize (name1, breed, bark, name, action)
+	def initialize (name, action)
 		super(name, breed, bark)
 		@owner = name
 		@fetch = action

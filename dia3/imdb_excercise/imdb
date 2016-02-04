@@ -1,0 +1,4 @@
+require 'imdb'
+class movie
+
+end
