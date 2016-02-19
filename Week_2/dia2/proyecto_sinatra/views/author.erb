@@ -1,0 +1,17 @@
+<link href="/css/stylesheet.css" rel="stylesheet" type="text/css">
+
+<h1>My first sinatra</h1>
+<h1>la suma total es <%= @sum %>
+<h1>El tiempo menos <%= @hours %> horas es <%= @time %>
+<h1>Profile for <%= @username %></h1>
+
+<h2><b>Author:</b> Johnny Applessed!</h2>
+
+<img class='cielo' src="/img/sky.jpg">
+
+<!-- aquí se one el igual para mostrar el código en ruby -->
+<p>Izzy Ironside was born on <%= Date.today.strftime("%a") %>.</p>
+
+<% if Date.today.monday? %>
+  <p>Izzy Ironside is <strong>not</strong> a fan of mondays like today</p>
+<% end %>
